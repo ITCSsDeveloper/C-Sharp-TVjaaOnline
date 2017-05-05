@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DA51FA57-D7A2-43F5-BA2A-76083CF84AD9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TV_jaa_Online_by_Gmtan</RootNamespace>
+    <AssemblyName>TV jaa Online by Gmtan</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon11.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CH3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CH5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CH7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CH9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CH11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TPBS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nation-channel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-channel2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spring-news-channel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\voice-tv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tvjaa_2012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon11.ico" />
+    <None Include="Resources\cartoon2.png" />
+    <None Include="Resources\bang-channel1.png" />
+    <None Include="Resources\itsunday.jpg" />
+    <None Include="Resources\About-icon.png" />
+    <None Include="Resources\Chat.png" />
+    <None Include="Resources\InternetExplorer.png" />
+    <None Include="Resources\flash_icon1.png" />
+    <None Include="Resources\flash_icon.png" />
+    <None Include="Resources\47.jpg" />
+    <None Include="Resources\Twitter_512x512.png" />
+    <None Include="Resources\facebookIcon1.png" />
+    <None Include="Resources\212827641163446079.png" />
+    <None Include="Resources\facebookIcon.png" />
+    <None Include="Resources\tnn24-channel.png" />
+    <None Include="Resources\tnews.png" />
+    <None Include="Resources\thaitvd.png" />
+    <None Include="Resources\tgn.png" />
+    <None Include="Resources\suwannabhumi-channel.png" />
+    <None Include="Resources\rawangpai.png" />
+    <None Include="Resources\money-channel21.png" />
+    <None Include="Resources\media-news.png" />
+    <None Include="Resources\mcot1.png" />
+    <None Include="Resources\kim-eng-channel.png" />
+    <None Include="Resources\kctvchannel.png" />
+    <None Include="Resources\iptv.png" />
+    <None Include="Resources\innnews.png" />
+    <None Include="Resources\inews.png" />
+    <None Include="Resources\ibtv.png" />
+    <None Include="Resources\ebizchannel.png" />
+    <None Include="Resources\dailynewstv.png" />
+    <None Include="Resources\blueskychannel.png" />
+    <None Include="Resources\bangkokbiz.png" />
+    <None Include="Resources\astv-news1.png" />
+    <None Include="Resources\asiaupdate-channel.png" />
+    <None Include="Resources\aseantv.png" />
+    <None Include="Resources\13thai-channel.png" />
+    <None Include="Resources\5mvtv.png" />
+    <None Include="Resources\etv1.png" />
+    <None Include="Resources\whitechannel.png" />
+    <None Include="Resources\wbtv.png" />
+    <None Include="Resources\tv-muslim.png" />
+    <None Include="Resources\tcichannel.png" />
+    <None Include="Resources\tcctv.png" />
+    <None Include="Resources\tcctv %281%29.png" />
+    <None Include="Resources\tbc.png" />
+    <None Include="Resources\natgeowild.png" />
+    <None Include="Resources\luangta.png" />
+    <None Include="Resources\kstation.png" />
+    <None Include="Resources\ideatv8.png" />
+    <None Include="Resources\foodplanet.png" />
+    <None Include="Resources\fmtv.png" />
+    <None Include="Resources\etv.png" />
+    <None Include="Resources\drtv.png" />
+    <None Include="Resources\dmc-the-only-one.png" />
+    <None Include="Resources\ddtv.png" />
+    <None Include="Resources\ch8tcc-channel.png" />
+    <None Include="Resources\cat-channel.png" />
+    <None Include="Resources\volley.png" />
+    <None Include="Resources\starsoccer.png" />
+    <None Include="Resources\smmtv.png" />
+    <None Include="Resources\siamtv.png" />
+    <None Include="Resources\rssport.png" />
+    <None Include="Resources\mongkong.png" />
+    <None Include="Resources\mchannel.png" />
+    <None Include="Resources\major-channel.png" />
+    <None Include="Resources\major4.png" />
+    <None Include="Resources\major2.png" />
+    <None Include="Resources\gmmsport.png" />
+    <None Include="Resources\espnhd.png" />
+    <None Include="Resources\zabbchannel.png" />
+    <None Include="Resources\zaanetwork.png" />
+    <None Include="Resources\workpointtv.png" />
+    <None Include="Resources\veteethai.png" />
+    <None Include="Resources\travelchannel.png" />
+    <None Include="Resources\topstar.png" />
+    <None Include="Resources\thaichaiyo.png" />
+    <None Include="Resources\speedchannel.png" />
+    <None Include="Resources\saranar.png" />
+    <None Include="Resources\pop.png" />
+    <None Include="Resources\panda-channel.png" />
+    <None Include="Resources\nicechannel.png" />
+    <None Include="Resources\nattychannel.png" />
+    <None Include="Resources\my-tv.png" />
+    <None Include="Resources\mysterychannel.png" />
+    <None Include="Resources\mix24.png" />
+    <None Include="Resources\miraclechannel.png" />
+    <None Include="Resources\maxxitv.png" />
+    <None Include="Resources\mantv.png" />
+    <None Include="Resources\mangotvchannel.png" />
+    <None Include="Resources\laostar.png" />
+    <None Include="Resources\kchannel.png" />
+    <None Include="Resources\jwc-channel.png" />
+    <None Include="Resources\intv.png" />
+    <None Include="Resources\i-liketv.png" />
+    <None Include="Resources\hpluschannel.png" />
+    <None Include="Resources\hiwinch.png" />
+    <None Include="Resources\gtvthailand.png" />
+    <None Include="Resources\grandprix.png" />
+    <None Include="Resources\creativechannel.png" />
+    <None Include="Resources\channel8.png" />
+    <None Include="Resources\caruencable.png" />
+    <None Include="Resources\aromdeetv.png" />
+    <None Include="Resources\acts_channel.png" />
+    <None Include="Resources\youchannel1.png" />
+    <None Include="Resources\you2play-channel1.png" />
+    <None Include="Resources\yaakchannel1.png" />
+    <None Include="Resources\virginlive1.png" />
+    <None Include="Resources\truemusic1.png" />
+    <None Include="Resources\sabaideechannel1.png" />
+    <None Include="Resources\playchannel1.png" />
+    <None Include="Resources\mediachannel1.png" />
+    <None Include="Resources\green-channel1.png" />
+    <None Include="Resources\gmember1.png" />
+    <None Include="Resources\fantv1.png" />
+    <None Include="Resources\chiangmailive1.png" />
+    <None Include="Resources\channel-v-thailand1.png" />
+    <None Include="Resources\applechannel1.png" />
+    <None Include="Resources\afchannel1.png" />
+    <None Include="Resources\af1.png" />
+    <None Include="Resources\youchannel.png" />
+    <None Include="Resources\you2play-channel.png" />
+    <None Include="Resources\yaakchannel.png" />
+    <None Include="Resources\virginlive.png" />
+    <None Include="Resources\truemusic.png" />
+    <None Include="Resources\sabaideechannel.png" />
+    <None Include="Resources\playchannel.png" />
+    <None Include="Resources\mediachannel.png" />
+    <None Include="Resources\green-channel.png" />
+    <None Include="Resources\gmember.png" />
+    <None Include="Resources\fantv.png" />
+    <None Include="Resources\chiangmailive.png" />
+    <None Include="Resources\channel-v-thailand.png" />
+    <None Include="Resources\bang-channel.png" />
+    <None Include="Resources\applechannel.png" />
+    <None Include="Resources\afchannel.png" />
+    <None Include="Resources\af.png" />
+    <None Include="Resources\skynews-channel.png" />
+    <None Include="Resources\presstv.png" />
+    <None Include="Resources\orangesport.png" />
+    <None Include="Resources\nhkworld.png" />
+    <None Include="Resources\nasalive.png" />
+    <None Include="Resources\nasa_education.png" />
+    <None Include="Resources\kbschannel.png" />
+    <None Include="Resources\france24-channel.png" />
+    <None Include="Resources\foxnews.png" />
+    <None Include="Resources\cctvnews.png" />
+    <None Include="Resources\bbcnews.png" />
+    <None Include="Resources\arirang.png" />
+    <None Include="Resources\smilechildchannel.png" />
+    <None Include="Resources\gang-cartoon-channel.png" />
+    <None Include="Resources\cartoonclub.png" />
+    <None Include="Resources\cartoon1.png" />
+    <None Include="Resources\shopping_cart.png" />
+    <None Include="Resources\news.png" />
+    <None Include="Resources\movies.png" />
+    <None Include="Resources\jarvis_island_flag.png" />
+    <None Include="Resources\emblem_library.png" />
+    <None Include="Resources\dino_green.png" />
+    <None Include="Resources\music.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

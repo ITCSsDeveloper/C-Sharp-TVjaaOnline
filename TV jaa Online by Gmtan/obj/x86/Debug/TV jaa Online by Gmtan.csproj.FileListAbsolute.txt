@@ -1,0 +1,32 @@
+C:\Users\TAPloNy\Desktop\FB C9\Tv jaa\TV jaa Online by Gmtan\TV jaa Online by Gmtan\bin\Debug\TV jaa Online by Gmtan.exe
+C:\Users\TAPloNy\Desktop\FB C9\Tv jaa\TV jaa Online by Gmtan\TV jaa Online by Gmtan\bin\Debug\TV jaa Online by Gmtan.pdb
+C:\Users\TAPloNy\Desktop\FB C9\Tv jaa\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\TV_jaa_Online_by_Gmtan.Form1.resources
+C:\Users\TAPloNy\Desktop\FB C9\Tv jaa\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\TV_jaa_Online_by_Gmtan.Properties.Resources.resources
+C:\Users\TAPloNy\Desktop\FB C9\Tv jaa\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\TV jaa Online by Gmtan.csproj.GenerateResource.Cache
+C:\Users\TAPloNy\Desktop\FB C9\Tv jaa\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\TV jaa Online by Gmtan.exe
+C:\Users\TAPloNy\Desktop\FB C9\Tv jaa\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\TV jaa Online by Gmtan.pdb
+D:\รก 1\FB C9\Tv jaa\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\TV jaa Online by Gmtan.exe
+D:\รก 1\FB C9\Tv jaa\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\TV jaa Online by Gmtan.pdb
+D:\รก 1\FB C9\Tv jaa\TV jaa Online by Gmtan\TV jaa Online by Gmtan\bin\Debug\TV jaa Online by Gmtan.exe
+D:\รก 1\FB C9\Tv jaa\TV jaa Online by Gmtan\TV jaa Online by Gmtan\bin\Debug\TV jaa Online by Gmtan.pdb
+D:\รก 1\FB C9\Tv jaa\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\TV_jaa_Online_by_Gmtan.Form1.resources
+D:\รก 1\FB C9\Tv jaa\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\TV_jaa_Online_by_Gmtan.Properties.Resources.resources
+D:\รก 1\FB C9\Tv jaa\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\TV jaa Online by Gmtan.csproj.GenerateResource.Cache
+D:\รก 1\FB C9\Tv jaa\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\TV jaa Online by Gmtan.csprojResolveAssemblyReference.cache
+D:\รก 1\FB C9\Tv jaa\TV jaa Online by Gmtan\TV jaa Online by Gmtan\bin\Debug\Interop.WMPLib.dll
+D:\รก 1\FB C9\Tv jaa\TV jaa Online by Gmtan\TV jaa Online by Gmtan\bin\Debug\AxInterop.WMPLib.dll
+D:\รก 1\FB C9\Tv jaa\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\Interop.WMPLib.dll
+D:\รก 1\FB C9\Tv jaa\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\AxInterop.WMPLib.dll
+D:\รก 1\FB C9\Tv jaa\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\TV jaa Online by Gmtan.csproj.ResolveComReference.cache
+D:\รก 1\FB C9\Tv jaa\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\TV_jaa_Online_by_Gmtan.Form2.resources
+D:\รก 1\FB C9\Tv jaa\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\TV_jaa_Online_by_Gmtan.Form3.resources
+D:\HDD1\Source CODE C# .NET\Free Style\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\Interop.WMPLib.dll
+D:\HDD1\Source CODE C# .NET\Free Style\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\AxInterop.WMPLib.dll
+D:\HDD1\Source CODE C# .NET\Free Style\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\TV jaa Online by Gmtan.csproj.ResolveComReference.cache
+D:\HDD1\Source CODE C# .NET\Free Style\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\TV jaa Online by Gmtan.exe
+D:\HDD1\Source CODE C# .NET\Free Style\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\TV jaa Online by Gmtan.pdb
+D:\Other\Source CODE C# .NET\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\Interop.WMPLib.dll
+D:\Other\Source CODE C# .NET\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\AxInterop.WMPLib.dll
+D:\Other\Source CODE C# .NET\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\TV jaa Online by Gmtan.csproj.ResolveComReference.cache
+D:\Other\Source CODE C# .NET\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\TV jaa Online by Gmtan.exe
+D:\Other\Source CODE C# .NET\TV jaa Online by Gmtan\TV jaa Online by Gmtan\obj\x86\Debug\TV jaa Online by Gmtan.pdb
